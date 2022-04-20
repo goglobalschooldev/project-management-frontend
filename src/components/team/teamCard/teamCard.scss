@@ -1,0 +1,50 @@
+@import "../../../theme.scss";
+
+.card {
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 8px 2px #f2f1f4;
+  cursor: pointer;
+
+  .icons {
+    display: flex;
+    justify-content: right;
+
+    .tuch-action {
+      font-size: 25px;
+      color: $secondary-color;
+    }
+  }
+
+  .card-title {
+    // color: gray;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .card-subtitle {
+    display: flex;
+  }
+  .subtitle {
+    font-size: 14px;
+    font-weight: 100;
+    color: $secondary-color;
+  }
+  .card-icon {
+    font-size: 30px;
+    font-weight: 300;
+    color: $secondary-color;
+    // margin-right: 2px;
+  }
+  .card-avatar {
+    display: flex;
+    justify-content: left;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+    color: crimson;
+    background-color: pink;
+  }
+}

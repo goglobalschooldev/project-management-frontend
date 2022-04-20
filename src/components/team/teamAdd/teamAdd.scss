@@ -1,0 +1,84 @@
+@import "../../../theme.scss";
+
+.modal-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  height: fit-content;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 24;
+  padding: 20px;
+
+  .button-add {
+    width: 100%;
+    border-radius: 10px;
+    background-color: $main-color;
+    padding-top: 10px;
+  }
+
+  .close-icon {
+    display: flex;
+    justify-content: right;
+
+    .box-icon-team {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      background-color: #f7f7f7;
+      border-radius: 5px;
+
+      .icon-team {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: $secondary-color;
+        font-size: 22px;
+        cursor: pointer;
+      }
+      &:hover {
+        background-color: #dfdfde;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .title {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .card-subtitle {
+    display: flex;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    font-weight: 100;
+    color: $secondary-color;
+  }
+
+  .card-icon {
+    font-size: 35px;
+    font-weight: 300;
+    color: $secondary-color;
+    // margin-right: 2px;
+  }
+
+  .card-avatar {
+    display: flex;
+    justify-content: left;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    color: crimson;
+    background-color: pink;
+  }
+}

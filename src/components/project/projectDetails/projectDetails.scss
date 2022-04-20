@@ -1,0 +1,126 @@
+@import "../../../theme.scss";
+
+.modal-detailes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: auto;
+  height: fit-content;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 24;
+  padding: 20px;
+  max-height: 100%;
+  overflow-y: auto;
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+
+  .box-icons-ProjectDetial {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding-top: 5px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    .icones-ProjectDetial {
+      color: $secondary-color;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    &:hover {
+      background-color: #dfdfde;
+      border-radius: 5px;
+    }
+  }
+
+  .desciption {
+    margin-top: 10px;
+  }
+
+  .close-icon {
+    display: flex;
+    justify-content: right;
+  }
+
+  .add-task {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .field-title {
+    font-size: 14px;
+    color: $secondary-color;
+  }
+
+  .button-add {
+    width: 100%;
+    border-radius: 10px;
+    background-color: $main-color;
+    padding-top: 10px;
+  }
+
+  .button-delete {
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+    padding-top: 10px;
+  }
+
+  .icon-delete {
+    font-size: 30px;
+    color: red;
+  }
+  // .card-avatar {
+  //   display: flex;
+  //   justify-content: left;
+
+  //   .avatar {
+  //     width: 30px;
+  //     height: 30px;
+  //   }
+  // }
+
+  .card-icon {
+    font-size: 26px;
+    font-weight: 300;
+    color: $secondary-color;
+    // margin-right: 2px;
+  }
+
+  // .percent {
+  //   border: 1px solid $secondary-color;
+  //   height: 100%;
+  //   border-radius: 10px;
+  //   text-align: center;
+  //   padding: 12px;
+  //   font-size: 20px;
+  //   color: $secondary-color;
+  // }
+
+  // .delete {
+  //   .button-delete-icon {
+  //     margin-top: 5px;
+  //     width: 20px;
+  //     height: 30px;
+  //     display: flex;
+  //     justify-content: left;
+
+  //     .delete-icon {
+  //       font-size: 30px;
+  //       color: red;
+  //       cursor: pointer;
+  //     }
+  //   }
+  // }
+  .field-title {
+    margin-bottom: 8px;
+  }
+}

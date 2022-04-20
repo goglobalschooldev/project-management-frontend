@@ -1,0 +1,82 @@
+@import "../../../theme.scss";
+
+.events-table {
+  flex: 5;
+  height: 300px;
+  // background-color: aqua;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $title-color;
+    .title {
+      font-size: $title-size;
+      font-weight: $title-weight;
+      color: $title-color;
+      text-transform: $title-transform;
+    }
+    a {
+      color: $title-color;
+    }
+  }
+
+  .body {
+    margin-top: 20px;
+
+    .event {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      justify-content: space-between;
+
+      .event-title {
+        .title {
+          font-weight: bold;
+          color: gray;
+        }
+        .date {
+          display: flex;
+          color: rgb(253, 81, 201);
+          .time {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            .icon {
+              font-size: 13px;
+              margin-right: 5px;
+            }
+          }
+          .place {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            margin-left: 20px;
+            .icon {
+              font-size: 13px;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+
+      .member {
+        margin-left: 30px;
+        .MuiAvatarGroup-avatar {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      .accept-btn {
+        font-weight: bold;
+        background-color: #fab0e1;
+        color: #f62db2;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 25px 10px 25px;
+        cursor: pointer;
+      }
+    }
+  }
+}

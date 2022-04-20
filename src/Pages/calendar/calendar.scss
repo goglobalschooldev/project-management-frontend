@@ -1,0 +1,25 @@
+@import "../../theme.scss";
+
+.form-control {
+  border-radius: 10px;
+
+  .selector {
+    border-radius: 10px;
+  }
+  .topleft {
+    display: flex;
+  }
+}
+
+.add-event {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+
+  .button-event {
+    background-color: $main-color;
+    border-radius: 10px;
+    width: 20%;
+    color: #fff;
+  }
+}

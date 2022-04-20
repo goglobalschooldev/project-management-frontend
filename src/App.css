@@ -1,0 +1,54 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: headerEnglish;
+  src: url("./font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: bodyEnglish;
+  src: url("./font/Lato-Regular.ttf");
+}
+
+@font-face{
+  font-family:Moul;
+  src:url("./font/Moul-Regular.ttf");
+}
+@font-face {
+  font-family: Khmer-Os-Siemreap;
+  src: url("./font/KhmerOSsiemreap.ttf")
+}
+@font-face{
+  font-family:Bokor;
+  src: url("./font/Bokor-Regular.ttf") 
+}
+
+.font-english-header {
+  font-family: headerEnglish !important;
+  color: gray !important;
+}
+
+.font-english {
+  font-family: headerEnglish !important;
+}
+
+.font-english-body {
+  font-family: bodyEnglish !important;
+}
+
+.font-Moul{
+  font-family: Moul !important;
+}
+
+.KhmerOsSiemreap {
+  font-family: Khmer-Os-Siemreap !important;
+}
+.Bokor{
+  font-family:Bokor !important;
+}
+

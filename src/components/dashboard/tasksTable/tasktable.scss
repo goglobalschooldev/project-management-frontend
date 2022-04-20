@@ -1,0 +1,20 @@
+@import "../../../theme.scss";
+
+.tasks-tables {
+  flex: 5;
+  .title {
+    font-size: $title-size;
+    font-weight: $title-weight;
+    color: $title-color;
+    text-transform: $title-transform;
+    margin-bottom: 10px;
+  }
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    border-radius: none !important;
+    box-shadow: none !important;
+  }
+  .MuiAvatarGroup-avatar {
+    width: 30px;
+    height: 30px;
+  }
+}

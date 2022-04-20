@@ -1,0 +1,31 @@
+@import "../../theme.scss";
+
+.box-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 100px;
+
+  .text-field {
+    background-color: #e8f0fe;
+    border-radius: 30px;
+  }
+
+  .box-img {
+    justify-content: center;
+    display: flex;
+  }
+
+  .system-title {
+    color: #fff;
+    margin-top: 1;
+  }
+
+  .field-title {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+}

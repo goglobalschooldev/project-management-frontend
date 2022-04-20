@@ -1,0 +1,50 @@
+$main-color: #5b5bf6;
+$secondary-color: #747474;
+$menu-active: #7b3df0;
+$margin-body: 20px;
+
+// Title --------------------------------
+
+$title-color: #5b5bf6;
+$title-size: 18px;
+$title-weight: bold;
+$title-transform: capitalize;
+
+// Breakpion ----------------------------
+
+$desktop-width: 1024px;
+$tablet-width: 768px;
+$mobile-width: 640px;
+$start: 0px;
+/* For Desktop View */
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+/* For Tablet View */
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@mixin mobile {
+  @media (max-device-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tabletAndMobile {
+  @media (min-width: #{$start}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin paddingSidebar {
+  @media (min-width: #{989px}) and (max-width: #{1271px}) {
+    @content;
+  }
+}

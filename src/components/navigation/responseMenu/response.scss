@@ -1,0 +1,58 @@
+.logos {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5;
+    // background-color: #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+}
+.box-divider {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 20px 0px;
+}
+
+.box-item {
+  display: flex;
+  justify-content: center;
+}
+
+.list-item {
+  width: 50%;
+  height: 50px;
+  color: #fff;
+}
+
+.list-item-text {
+  color: #fff;
+  margin-left: 23px;
+  margin-top: 8px;
+}
+
+.front-line {
+  height: 50px;
+  width: 3px;
+  background-color: #fff;
+}
+
+.box-logout {
+  display: flex;
+  justify-content: center;
+  margin-top: 48;
+}
+
+.button-logout {
+  background-color: #5b5bf6;
+  border-radius: 2;
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}

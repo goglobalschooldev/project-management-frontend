@@ -1,0 +1,28 @@
+.user-row {
+  display: flex;
+
+  .user-info {
+    margin-left: 20px;
+
+    .user-name {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .user-gender {
+      margin-top: 4px;
+    }
+  }
+}
+
+.action-button-action {
+  background-color: red;
+
+  .edit-icon {
+    font-size: 25px;
+  }
+  .delete-icon {
+    font-size: 25px;
+    color: red;
+  }
+}

@@ -1,0 +1,77 @@
+@import "../../theme.scss";
+
+//search icon
+.user-table {
+  .wrapper {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search {
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      border: 0.5px solid lightgray;
+      // padding: 3px;
+
+      input {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding: 8.5px 32px 8.5px 14px;
+        background: transparent;
+
+        &::placeholder {
+          font-size: 18px;
+        }
+      }
+      .icon-style {
+        color: $secondary-color;
+        margin-left: 10px;
+      }
+    }
+  }
+  //end
+  .users-search-bar {
+    display: flex;
+    justify-content: space-between;
+
+    .table-style {
+      margin-top: 15px;
+    }
+
+    .font-english-header {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: " headerEnglish";
+      color: $secondary-color;
+    }
+
+    .seacrh-box {
+      .MuiOutlinedInput-root {
+        width: 300px !important;
+      }
+    }
+  }
+  .grid-button {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+
+    .button {
+      background-color: $main-color;
+      padding-top: 8px;
+      border-radius: 5px;
+      width: 25%;
+      color: #fff;
+    }
+  }
+
+  .pagination-users {
+    margin-top: 25px;
+    display: flex;
+    justify-content: right;
+  }
+}

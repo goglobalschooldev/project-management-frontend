@@ -1,0 +1,51 @@
+@import "../../theme.scss";
+
+.below-header {
+  margin-top: $margin-body;
+
+  .grid-button {
+    display: flex;
+    justify-content: right;
+    // margin-top: $margin-body;
+
+    .button {
+      background-color: $main-color;
+      border-radius: 5px;
+      height: 40px;
+      width: 100%;
+      color: #fff;
+    }
+  }
+  // search box style
+  .wrapper {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      border-radius: 5px;
+      border: 0.5px solid lightgray;
+
+      input {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding: 8.5px 32px 8.5px 14px;
+        background: transparent;
+
+        &::placeholder {
+          font-size: 18px;
+        }
+      }
+      .icon-style {
+        color: $secondary-color;
+        margin-left: 10px;
+      }
+    }
+  }
+}

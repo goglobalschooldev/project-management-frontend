@@ -1,0 +1,85 @@
+@import "../../../theme.scss";
+
+.modal-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // width: 1200px;
+  max-width: 1000px;
+  height: fit-content;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 24;
+  // padding: 20px;
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+
+  .box-icon-details {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    .icon-details {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: $secondary-color;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    &:hover {
+      background-color: #dfdfde;
+      border-radius: 5px;
+    }
+  }
+
+  .desciption {
+    margin-top: 10px;
+  }
+
+  .close-icon {
+    display: flex;
+    justify-content: right;
+  }
+
+  .field-title {
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    font-size: 14px;
+    font-weight: 100;
+    color: $secondary-color;
+  }
+  .button-delete {
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+    padding-top: 10px;
+  }
+
+  .card-icon {
+    font-size: 35px;
+    font-weight: 300;
+    color: $secondary-color;
+    // margin-right: 2px;
+  }
+
+  .card-avatar {
+    display: flex;
+    justify-content: left;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    color: crimson;
+    background-color: pink;
+  }
+}

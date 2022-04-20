@@ -1,0 +1,24 @@
+@import "../../../theme.scss";
+
+.modal-delete {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: fit-content;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+
+  .cencel-button {
+    background-color: $main-color;
+    color: #fff;
+  }
+
+  .ok-button {
+    background-color: red;
+    color: #fff;
+  }
+}

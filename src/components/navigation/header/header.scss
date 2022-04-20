@@ -1,0 +1,66 @@
+@import "../../../theme.scss";
+
+.header {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    .mobile-sidebar {
+      display: flex;
+      align-items: center;
+      color: $secondary-color;
+      .icon {
+        font-size: 35px;
+        margin-top: 4px;
+        margin-right: 5px;
+        cursor: pointer;
+
+        // @include desktop {
+        //     display: none;
+        // }
+      }
+    }
+    h3 {
+      color: $secondary-color;
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .nortifiation {
+      display: flex;
+      justify-content: space-between;
+      width: 100px;
+
+      .icon-container {
+        display: flex;
+        position: relative;
+        .icon {
+          font-size: 30px;
+          margin-top: 7px;
+          color: $secondary-color;
+          cursor: pointer;
+        }
+        p {
+          width: 23px;
+          height: 23px;
+          background-color: red;
+          color: white;
+          border-radius: 50%;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          font-size: 10px;
+          font-weight: bold;
+          position: absolute;
+          right: -10px;
+          // top: -2px;
+        }
+      }
+    }
+  }
+
+  hr {
+    background-color: $secondary-color;
+    opacity: 0.4;
+    margin-top: 10px;
+  }
+}

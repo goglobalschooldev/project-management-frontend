@@ -1,0 +1,61 @@
+@import "../../theme.scss";
+
+.notification {
+  display: flex;
+  justify-content: right;
+}
+.users-search-bar {
+  display: flex;
+  margin-top: $margin-body;
+  justify-content: space-between;
+
+  .seacrh-box {
+    .MuiOutlinedInput-root {
+      width: 300px !important;
+    }
+  }
+}
+.grid-button {
+  display: flex;
+  justify-content: right;
+
+  .button {
+    background-color: $main-color;
+    height: 40px;
+    border-radius: 5px;
+    width: 20%;
+    color: #fff;
+  }
+}
+// search box style
+.wrapper {
+  width: 100%;
+  // padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .search {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    width: 100%;
+
+    input {
+      border: none;
+      outline: none;
+      font-size: 18px;
+      padding: 8.5px 32px 8.5px 14px;
+      background: transparent;
+
+      &::placeholder {
+        font-size: 18px;
+      }
+    }
+    .icon-style {
+      color: $secondary-color;
+      margin-left: 10px;
+    }
+  }
+}

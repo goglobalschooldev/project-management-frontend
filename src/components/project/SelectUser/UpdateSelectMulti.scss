@@ -1,0 +1,9 @@
+.group-avatar {
+  display: flex;
+  justify-content: left;
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,90 @@
+@import "../../../theme.scss";
+
+.list {
+  width: 15%;
+  height: 100vh;
+  background-color: #5b5bf6;
+  background-image: linear-gradient(#8c4af2, #5b5bf6);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  // position: fixed;
+
+  .logos {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 5;
+      background-color: #fff;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  }
+
+  .dividers {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    .divider {
+      border: 1px solid #fff;
+      width: 75%;
+    }
+  }
+
+  .box-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-item {
+    width: 75%;
+    height: 50px;
+    border-radius: 0px 6px 6px 0px;
+    color: #fff;
+  }
+
+  .list-item-text {
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 8px;
+  }
+
+  .front-line {
+    height: 50px;
+    width: 3px;
+    background-color: #fff;
+  }
+
+  .box-logout {
+    display: flex;
+    justify-content: center;
+    margin-top: 48;
+  }
+
+  .button-logout {
+    background-color: #7164fd;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    .list-button-logout {
+      color: #fff;
+      .icon {
+        color: white;
+      }
+    }
+    .list-item-logout {
+      margin-left: 10px;
+      margin-top: 6px;
+    }
+  }
+}
